@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="myVue">
+    <input type="text" v-model="name">
+    <p>{{name}}</p>
+    <div>--------</div>
+    <div>--------</div>
+    <div>--------</div>
+    <p v-on:click="click">点击事件</p>
+</div>
+<div id="demo"></div>
+<script src="Observer.js"></script>
+<script src="Watcher.js"></script>
+<script src="Compile.js"></script>
+<script src="Mvvm.js"></script>
+<script>
+    var myVue = new MyVue({
+        el: '#myVue',
+        data: {
+            name: ''
+        },
+        methods: {
+            click() {
+                this.name += 1;
+            }
+        },
+        mounted() {
+            console.log('dom加载完毕');
+        }
+    })
+    console.log(myVue);
+
+</script>
+</body>
+</html>
