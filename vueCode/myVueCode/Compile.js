@@ -81,6 +81,7 @@ Compile.prototype = {
         var initText = this.vm[exp];
         this.updateText(node, initText);
         new Watcher(this.vm, exp, function (value) {
+            console.log(exp);
             self.updateText(node, value);
         });
     },
@@ -97,6 +98,7 @@ Compile.prototype = {
         var val = this.vm[exp];
         this.modelUpdater(node, val);  // 完成挂载，{{ }}中的值被渲染为data中的值
         new Watcher(this.vm, exp, function (value) {
+            console.log(exp);
             self.modelUpdater(node, value);
         });
 
