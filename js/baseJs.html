@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="out"
+     style="width: 300px;
+            height: 500px;
+            padding: 10px;
+            border: 20px solid red;
+            margin: 30px;
+            position: relative;
+            left: 100px">
+
+</div>
+<script>
+    // 1. 变量类型
+    // console.log(typeof undefined);  //undefined
+    // console.log(typeof 123);  //number
+    // console.log(typeof '123');  //string
+    // console.log(typeof true); //boolean
+    // console.log(typeof [1,2,3]);  //object
+    // console.log(typeof {"id": 11}); //object
+    // console.log(typeof null); //object
+    // console.log(typeof console.log);  //function
+
+    // 2. 内置函数
+    // Object 对象
+    // Array 数组
+    // concat(array1,arrayn)将两个或两个以上的数组值衔接止来,合并后返回成果
+    // join(string) 将数组中元素合并为字符串,十月妈咪,string为分隔符.如省详参数则直交合并,不再分隔
+    // pop() 移除数组中的最后一个元素并返回当元素
+    // push(value) 在数组的终尾加上一个或多个元素,并且返回新的数组长度值
+    // reverse() 倒置数组中元素的次序,反背排列
+    // shift() 移除数组中的第一个元素并返回当元素
+    // slice(start, deleteCount, [item1[, item2[,...[,itemN]]]]) 返从一个数组中移除一个或少个元素,假如必要,在所移除元素的地位上拔出新元素,返回所移除的元素
+    // sort(compare Function) 在已指定排序号的情形下,依照元素的字女次序排列,假如不是字符串类型则转换成字符串再排序,返回排序后的数组
+    // splice() 为数组删除并加新的元素
+    // toString() 将数组一切元素返回一个字符串,其间用逗号分隔
+
+
+    // Boolean 布尔值
+    // Number 数字
+    // Error 错误
+    // Function 函数
+
+
+    // Date 日期
+    // getDay() 返回一周中的第几天(0-6)
+    // getYear() 返回年份.2000年以前为2位,2000(包括)以后为4位
+    // getFullYear() 返回完全的4位年份数
+    // getMonth() 返回月份数(0-11)
+    // getDate() 返回日(1-31)
+    // getHours() 返回小时数(0-23)
+    // getMinutes() 返回分钟(0-59)
+    // getSeconds() 返回秒数(0-59)
+    // getMilliseconds() 返回毫秒(0-999)
+    // getTime() 前往自1970年1月1号0:0:0到如今一同花来的毫秒数
+    // toString() 将日期对象转换为字符串
+
+
+    // String 字符串
+    // charAt(index) 返回指定索引处的字符
+    // concat(string2)衔接两条或少条字符串
+    // indexOf(searchString, startIndex) 返回字符串中第一个呈现指定字符串的地位
+    // match(regex) 在字符串中查觅指定值
+    // replace(regex, newString)将字符串中的某些字符替代成其它字符
+    // search(regex) 针对某施行值对字符串入止查觅
+    // slice(startIndex, endIndex)将部门字符抽出并在新的字符串中返回剩余局部
+    // split(delimiter)将字符串分配为数组
+    // substr(startIndex, length) 从startIndex与,取length个字符
+    // substring(startIndex, endIndex) 从startIndex和endIndex之间的字符,没有包含endIndex
+    // toLowerCase() 把字符串中的文本变成小写
+    // toUpperCase() 把字符串中的白本变成大写
+
+    // RegExp 正则
+    // Math 数学函数
+    // abs(x) 返回数字的相对值
+    // floor(x) 返回 x 四舍五入后的最小整数
+    // max(x,y) 返回 x 和 y 之间较大的数
+    // min(x,y) 返回 x 和 y 之间较小的数
+    // random() 返回位于 0 到 1 之间的随机函数
+    // round(x) 四舍五进后与整
+
+    // 3. 如何理解JSON
+    //将JSON字符串转换成JSON对象 JSON.parse()
+    // 将JSON对象转换成JSON字符串 JSON.stringify()
+
+
+    // 4. 使用Object.prototype.toString获取一个对象的类型
+    // var toString = Object.prototype.toString;
+    //
+    // toString.call(new Date); // [object Date]
+    // toString.call(new String); // [object String]
+    // toString.call(Math); // [object Math]
+    // toString.call(/s/); // [object RegExp]
+    // toString.call([]); // [object Array]
+    //
+    // //Since JavaScript 1.8.5
+    // toString.call(undefined); // [object Undefined]
+    // toString.call(null); // [object Null]
+
+
+    // 5. 原型和原型链
+    // 原型的五条规则
+    // a) 所有的引用类型都可以自定义添加属性
+    // b) 所有的引用类型都有自己的隐式原型（proto）
+    // c) 函数都有自己的显式原型（prototype）
+    // d) 所有的引用类型的隐式原型都指向对应构造函数的显示原型
+    // e) 使用引用类型的某个自定义属性时，如果没有这个属性，会去该引用类型的__proto__（也就是对应构造函数的prototype）中去找
+
+    // 6. 闭包
+    // function checkIsFirst() {
+    //     let _list = [];
+    //     return function check(val) {
+    //         if (_list.indexOf(val) > -1) {
+    //             return false
+    //         } else {
+    //             _list.push(val);
+    //             return true;
+    //         }
+    //     }
+    // }
+    // var isFirst = checkIsFirst();
+    // isFirst(10)
+
+
+    // js常见问题
+
+    // 1. 闭包
+
+    // 垃圾回收机制，当一个变量给执行完毕之后，会在特定的时间被回收回去
+    // 但是在闭包里面引用了外部的变量，及时闭包未被执行，也不会被回收。
+    // 一个函数有权访问另外一个函数里面的变量，就是闭包。
+
+    // function isFirst() {
+    //     var _list = [];
+    //     return function check(val) {
+    //         if (_list.indexOf(val) > -1) {
+    //             return false;
+    //         }else {
+    //             _list.push(val);
+    //             return true;
+    //         }
+    //     }
+    // }
+    //
+    // var isFisrtFn = isFirst();
+    //
+    // console.log(isFisrtFn(10));
+    // console.log(isFisrtFn(10));
+    // console.log(isFisrtFn(20));
+
+
+    // 2. 作用域链的理解
+
+    // 变量的作用域分为全局作用域和局部作用域
+    // js的作用域是相对于函数而言的，即函数作用域
+    // 作用域链要理解执行上下文的
+    // 内部函依次从在自身作用域开始，链式的往上层的执行环境查找，就形成了作用域链
+
+
+    // 3. JavaScript原型，原型链 ? 有什么特点？
+    // 所有的对象都有自身的隐式原型，隐式原型是想自身构造函数的显示原型，从而形成一条原型链
+    // var obj = {
+    //     name: 'a'
+    // }
+    // console.log(obj);
+    //
+    // console.log(obj.__proto__ === Object.prototype);
+
+    // function Obj(name,age) {
+    //     this.name = name || 'xiaojin';
+    //     this.age = age || 18;
+    // }
+    //
+    // var  obj = new Obj('xiao', 8);
+    // console.log(obj);
+    // console.log(obj.__proto__ === Obj.prototype);
+
+
+    // 4. 请解释什么是事件代理
+
+    // 事件代理也叫事件委托，当我们对很多元素添加事件时候，可以通过对他们的父节点添加事件来委托事件给这些元素，
+    // 得益于浏览器的事件冒泡机制
+
+    // 5. Javascript如何实现继承？
+    // 定义一个动物类
+    // function Animal (name) {
+    //     // 属性
+    //     this.name = name || 'Animal';
+    //     // 实例方法
+    //     this.sleep = function(){
+    //         console.log(this.name + '正在睡觉！');
+    //     }
+    // }
+    // Animal.prototype.eat = function(food) {
+    //     console.log(this.name + '正在吃：' + food);
+    // };
+
+
+    // // 原型方法  构造函数交代不干净，子类实例化时候，父类构造函数无法传参
+    // function Cat(){
+    // }
+    // Cat.prototype = new Animal();
+    // Cat.prototype.name = 'cat';
+    // var cat = new Cat();
+    // console.log(cat);
+
+
+    // // 构造继承 多继承实例化时候都集成了父类的，性能低
+    // function Cat(name){
+    //     Animal.call(this);
+    //     this.name = name || 'Tom';
+    // }
+
+
+    // var cat = new Cat();
+    // console.log(cat);
+    // // console.log(cat.sleep());
+    // // console.log(cat instanceof Animal); // false
+    // // console.log(cat instanceof Cat); // true
+
+    // 实例继承
+    // function Cat(name){
+    //     var instance = new Animal();
+    //     instance.name = name || 'Tom';
+    //     return instance;
+    // }
+
+    // 寄生组合继承
+
+    // function Cat(name){
+    //     Animal.call(this);
+    //     this.name = name || 'Tom';
+    // }
+    // (function(){
+    //     // 创建一个没有实例方法的类
+    //     var Super = function(){};
+    //     Super.prototype = Animal.prototype;
+    //     //将实例作为子类的原型
+    //     Cat.prototype = new Super();
+    //     Cat.prototype.constructor = Cat;
+    // })();
+    //
+    //
+    //
+    // var cat = new Cat();
+    // console.log(cat);
+
+
+    // 6. 谈谈This对象的理解
+
+    // var obj = {
+    //     name: 'xiao',
+    //     log: function () {
+    //         // 调用者
+    //         console.log(this);
+    //         return function () {
+    //             console.log(this);
+    //         }
+    //     }
+    // }
+    //
+    // var logFn = obj.log();
+    //
+    // logFn() // this  window
+    //
+    // function Obj(name) {
+    //     this.name = name || 'xiao';
+    // }
+    //
+    // Obj.prototype = {
+    //     log: function () {
+    //         console.log(this);
+    //     }
+    // }
+    //
+    // var obj = new Obj('xiao');
+    // obj.log() // 实例
+
+
+    // 7. 事件模型
+
+    // addEventListener('事件名称','事件回调','捕获/冒泡')
+    // 事件冒泡 事件捕获
+    // 注册事件 解除事件
+    // 阻止冒泡 stopPropagation
+
+    // 8. new操作符具体干了什么呢?
+    // 创建一个对象，this指向这个对象，给对象添加属性和方法，返回这个对象
+
+    // 9.异步加载JS的方式有哪些？
+    // defer  async 动态添加js
+
+    // 10. 那些操作会造成内存泄漏？
+    // 闭包 倒计时 全局变量
+
+    // 11. 谈谈你对webpack的看法
+    // 打包工具
+    // 入口 entry
+    // 出口 output
+    // 各种loader  module
+    // 插件  plugin
+
+    // 12. 常见web安全及防护原理
+    // sql注入原理
+    // 通过把sql命令插入到web表单递交或输入域名或页面请求的查询字符串，最终达到欺骗服务器执行恶意sql命令
+    // xss 提交的内容中有恶意代码
+    // 允许恶意用户将代码注入到网页上，其他用户在观看网页时就会受到影响。这类攻击通常包含了HTML以及用户端脚本语言。
+    // CSRF
+    // 冒充用户发起恶意请求
+
+    // 13. offsetWidth/offsetHeight,clientWidth/clientHeight与scrollWidth/scrollHeight的区别
+
+    // console.log(document.querySelector('#out').offsetWidth); // content  padding border 滚动条
+    // console.log(document.querySelector('#out').clientWidth); // content  padding
+    // console.log(document.querySelector('#out').scrollWidth); // content  padding
+    //
+    // console.log(document.querySelector('#out').offsetTop); // 返回元素的X和Y坐标 marginTop
+    // console.log(document.querySelector('#out').clientTop); // 返回元素的X和Y坐标 borderWidth
+    // console.log(document.querySelector('#out').scrollTop); // 返回元素的滚动条的位置
+
+    // 14. javascript有哪些方法定义对象
+    // 1.基于已有对象扩充其属性和方法
+    //
+    // 2.工厂方式
+    //
+    // 3.构造函数方式
+    //
+    // 4.原型(“prototype”)方式
+    //
+    // 5.动态原型方式
+
+
+    // 15. 说说你对promise的了解
+    // 解决回调地域链，三种状态 pending等待 fulfilled成功执行 rejected执行出错，pending可以转换成其他两种，不可逆
+    // 核心方法then,all,race,catch
+
+    // 16. AMD/CMD/CommonJs是JS模块化开发的标准，目前对应的实现是RequireJs/SeaJs/nodeJs.
+
+    // 17. JavaScript有几种类型的值？，你能画一下他们的内存图吗？
+    // 栈    堆
+    // 数字
+    // 布尔
+    // 字符串
+    // null
+    // 对象
+    // 函数
+    // es6 Symbol 通过Symbol函数创建
+
+    // 18.  es6
+    // 定义变量 let const
+    // 变量解构
+    // Set去重
+    // let set = new Set(['red', 'green', 'blue']);
+    // console.log(set.keys());
+    // Object
+    // Object  is判断是否相等
+    // Object  assign合并对象 浅拷贝
+    // Object  keys 返回一个[key]数组
+    // Object  values 返回一个[value]数组
+    // Object  entries 返回一个[value]数组
+    // let obj = {
+    //     name: 'xiao',
+    //     age: 12
+    // }
+    // console.log(Object.entries(obj));
+    // 0:(2) ["name", "xiao"]
+    // 1:(2) ["age", 12]
+
+    // async
+    // const asyncReadFile = async function () {
+    //     const f1 = await readFile('/etc/fstab');
+    //     const f2 = await readFile('/etc/shells');
+    //     console.log(f1.toString());
+    //     console.log(f2.toString());
+    // };
+    // Class
+    // Class 继承
+
+    // 装饰器 （Decorator）
+
+
+    // 高级
+    // 通用的事件侦听器函数
+    // var EventUtil = {
+    //     // 绑定事件
+    //     addEvent: function (el, type, callback) {
+    //         if (el.addEventListener) {
+    //             el.addEventListener(type, callback, false)
+    //         } else if (el.attachEvent) {
+    //             el.attachEvent('on' + type, callback)
+    //         } else {
+    //             el["on" + type] = callback;
+    //         }
+    //     },
+    //     // 移除事件绑定
+    //     removeEvent: function (el, type, callback) {
+    //         if (el.removeEventListener) {
+    //             el.removeEventListener(type, callback, false)
+    //         } else if (el.detachEvent) {
+    //             el.detachEvent('on' + type, callback)
+    //         } else {
+    //             el["on" + type] = null;
+    //         }
+    //     },
+    //     // 阻止事件冒泡
+    //     stopPropagation: function (ev) {
+    //         if (ev.stopPropagation) {
+    //             ev.stopPropagation()
+    //         }else {
+    //             ev.cancelBubble = null;
+    //         }
+    //     },
+    //     // 阻止默认事件
+    //     preventDefault: function(ev) {
+    //         if(ev.preventDefault) {
+    //             ev.preventDefault();
+    //         }else {
+    //             ev.returnValue = false;
+    //         }
+    //     },
+    //     // 获取事件源对象
+    //     getTarget: function(ev) {
+    //         return ev.target || ev.srcElement;
+    //     },
+    //     // 获取事件对象
+    //     getEvent: function(e) {
+    //         var ev = e || window.event;
+    //         if(!ev) {
+    //             var c = this.getEvent.caller;
+    //             while(c) {
+    //                 ev = c.arguments[0];
+    //                 if(ev && Event == ev.constructor) {
+    //                     break;
+    //                 }
+    //                 c = c.caller;
+    //             }
+    //         }
+    //         return ev;
+    //     }
+    //
+    // }
+    // EventUtil.addEvent(document.querySelector('#out'),'click', function (e) {
+    //     console.log(123);
+    //     console.log(EventUtil.getEvent(e));
+    // })
+
+
+    // 如何判断一个对象是否为数组
+    var arr = [1,2];
+    console.log(arr instanceof Array);
+    console.log(Array.isArray(arr));
+    console.log(Object.prototype.toString.call(arr) === '[object Array]');
+</script>
+</body>
+</html>

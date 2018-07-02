@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "element-ui": "^2.4.1",
+    "iview": "^2.14.2",
     "vue": "^2.5.16"
   }
 }

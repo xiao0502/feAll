@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input type="text" v-model="input">
+    <br>
+    <text>{{input}}</text>
+    <p style="
+    width: 100px;
+    height: 100px;
+    background: teal;
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff";
+       v-on:click="handleClick">{{input}}</p>
+</div>
+<script src="Observer.js"></script>
+<script src="Watcher.js"></script>
+<script src="Compile.js"></script>
+<script src="Mvvm.js"></script>
+<script>
+    var td = new TdVue({
+        el: '#app',
+        data: {
+            input: 1
+        },
+        methods: {
+            handleClick() {
+                this.input++
+            }
+        }
+    })
+    console.log(td);
+
+</script>
+</body>
+</html>

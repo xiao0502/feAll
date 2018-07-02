@@ -66,6 +66,7 @@ Compile.prototype = {
             if (self.isDirective(attrName)) {
 
                 var exp = attr.value;
+                console.log(exp);
                 var dir = attrName.substring(2);
                 if (self.isEventDirective(dir)) {  // 事件指令
                     self.compileEvent(node, self.vm, exp, dir);
@@ -81,15 +82,17 @@ Compile.prototype = {
         var initText = this.vm[exp];
         this.updateText(node, initText);
         new Watcher(this.vm, exp, function (value) {
-            console.log(exp);
             self.updateText(node, value);
         });
     },
     compileEvent: function (node, vm, exp, dir) {
+        console.log(exp);
+        console.log(vm.methods[exp]);
         var eventType = dir.split(':')[1];
         var cb = vm.methods && vm.methods[exp];
 
         if (eventType && cb) {
+            console.log(123);
             node.addEventListener(eventType, cb.bind(vm), false);
         }
     },
@@ -98,7 +101,6 @@ Compile.prototype = {
         var val = this.vm[exp];
         this.modelUpdater(node, val);  // 完成挂载，{{ }}中的值被渲染为data中的值
         new Watcher(this.vm, exp, function (value) {
-            console.log(exp);
             self.modelUpdater(node, value);
         });
 

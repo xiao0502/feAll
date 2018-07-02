@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let data = {
+        name: 'tuandai',
+        age: 18
+    }
+    Object.keys(data).forEach(function (key) {
+        defineReactive(data, key, data[key])
+    })
+
+    function defineReactive(data, key, value) {
+        Object.defineProperty(data, key, {
+            enumerable: true,
+            configurable: true,
+            get: function () {
+                return value + '数据劫持'
+            },
+            set: function (newValue) {
+                console.log(`${value} => ${newValue}`);
+                value = newValue;
+            }
+        })
+    }
+</script>
+</body>
+</html>

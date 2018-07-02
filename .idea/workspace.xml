@@ -2,14 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cfc147b-09b8-4464-a57b-9357f70602bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/vueCode/xiaoVue/Compile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueCode/xiaoVue/Observer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueCode/xiaoVue/Watcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueCode/xiaoVue/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueCode/xiaoVue/observer1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueCode/xiaoVue/observer2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/http.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/baseJs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/express/assets/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/express/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/express/router/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/optimize_youhua/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/tdView/build/package.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/tdView/build/package.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/tdView/build/package.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/tdView/src/components/button/button.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/tdView/src/components/button/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/tdView/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/tdView/src/components/input/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/tdView/src/components/input/input.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/tdView/src/styles/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/tdVue/Mvvm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/tdVue/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/vueSkeleton/build/webpack.skeleton.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/vueSkeleton/src/pages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/vueSkeleton/src/pages/my.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/vueSkeleton/src/skeleton.main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/vueSkeleton/src/skeleton/Skeleton1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueCode/vueSkeleton/src/skeleton/Skeleton2.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vueCode/myVueCode/Compile.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueCode/myVueCode/Compile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueCode/myVueCode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vueCode/myVueCode/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueCode/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vueCode/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueCode/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vueCode/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueCode/xiaoVue/Compile.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueCode/tdVue/Compile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueCode/xiaoVue/Observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueCode/tdVue/Observer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueCode/xiaoVue/Watcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueCode/tdVue/Watcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueCode/xiaoVue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vueCode/tdVue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueCode/xiaoVue/observer1.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueCode/tdVue/observer1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueCode/xiaoVue/observer2.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueCode/tdVue/observer2.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,80 +49,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Mvvm.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueCode/myVueCode/Mvvm.js">
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node/express/router/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="209">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Compile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueCode/myVueCode/Compile.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/express/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="114" column="37" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Compile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vueCode/xiaoVue/Compile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="180" selection-start-line="180" selection-end-line="180" />
+            <state relative-caret-position="611">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueCode/xiaoVue/index.html">
+        <entry file="file://$PROJECT_DIR$/node/express/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="133">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Watcher.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueCode/xiaoVue/Watcher.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/express/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            <state relative-caret-position="133">
+              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Observer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueCode/xiaoVue/Observer.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/express/assets/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1558">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
-              <folding>
-                <element signature="n#!!block;n#Observer#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Watcher.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueCode/myVueCode/Watcher.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="25" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Observer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueCode/myVueCode/Observer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -106,47 +99,52 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
+        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>数据</find>
-      <find>update</find>
-      <find>addDep</find>
-      <find>parseGetter</find>
-      <find>mou</find>
-      <find>$mount</find>
-      <find>appe</find>
-      <find>defineProperty</find>
-      <find>My</find>
-      <find>SelfVue</find>
-      <find>wa</find>
       <find>nodeToFragment</find>
       <find>Watcher</find>
       <find>v-</find>
       <find>Observer1</find>
       <find>new W</find>
-      <find>new Watcher</find>
       <find>new Watche</find>
       <find>isDirective</find>
       <find>dir</find>
-      <find>compileEvent</find>
       <find>attrName</find>
       <find>exp</find>
       <find>modelUpdater</find>
       <find>isElementNode</find>
       <find>isTextNode</find>
-      <find>compileText</find>
       <find>updateText</find>
+      <find>new</find>
+      <find>new Watcher</find>
+      <find>compileElement</find>
+      <find>this.el.</find>
+      <find>e.target.value</find>
+      <find>compileEvent</find>
+      <find>compileText</find>
+      <find>console</find>
+      <find>this.subs</find>
+      <find>cons</find>
+      <find>style</find>
+      <find>initProxy</find>
+      <find>sass</find>
+      <find>scss</find>
+      <find>Scss</find>
+      <find>extractless</find>
     </findStrings>
     <replaceStrings>
       <replace>属性</replace>
       <replace>MyVue</replace>
       <replace>Observer</replace>
       <replace>attr</replace>
+      <replace>less</replace>
+      <replace>extractLess</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/vueCode/node_modules/vue/src</dir>
@@ -158,30 +156,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vue/Bidirectional data binding/README.md" />
-        <option value="$PROJECT_DIR$/vue/Bidirectional data binding/observer.js" />
-        <option value="$PROJECT_DIR$/vue/Bidirectional data binding/watcher.js" />
-        <option value="$PROJECT_DIR$/vue/Bidirectional data binding/compile.js" />
-        <option value="$PROJECT_DIR$/vue/Bidirectional data binding/mvvm.js" />
-        <option value="$PROJECT_DIR$/vue/Bidirectional data binding/index.html" />
-        <option value="$PROJECT_DIR$/vueCode/package.json" />
-        <option value="$PROJECT_DIR$/vueCode/node_modules/vue/src/core/instance/state.js" />
-        <option value="$PROJECT_DIR$/vueCode/demo.js" />
-        <option value="$PROJECT_DIR$/vueCode/myVueCode/observer.js" />
-        <option value="$PROJECT_DIR$/vueCode/myVueCode/myVue.js" />
-        <option value="$PROJECT_DIR$/vueCode/myVueCode/Mvvm.js" />
-        <option value="$PROJECT_DIR$/vueCode/myVueCode/Watcher.js" />
-        <option value="$PROJECT_DIR$/vueCode/myVueCode/index.html" />
-        <option value="$PROJECT_DIR$/vueCode/xiaoVue/observer.js" />
-        <option value="$PROJECT_DIR$/vueCode/xiaoVue/observer1.js" />
-        <option value="$PROJECT_DIR$/vueCode/xiaoVue/observer2.js" />
-        <option value="$PROJECT_DIR$/vueCode/xiaoVue/watcher.js" />
         <option value="$PROJECT_DIR$/vueCode/myVueCode/Observer.js" />
-        <option value="$PROJECT_DIR$/vueCode/myVueCode/Compile.js" />
         <option value="$PROJECT_DIR$/vueCode/xiaoVue/Observer.js" />
         <option value="$PROJECT_DIR$/vueCode/xiaoVue/Watcher.js" />
         <option value="$PROJECT_DIR$/vueCode/xiaoVue/index.html" />
         <option value="$PROJECT_DIR$/vueCode/xiaoVue/Compile.js" />
+        <option value="$PROJECT_DIR$/vueCode/xiaoVue/Mvvm.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdVue/Mvvm.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdVue/c.js" />
+        <option value="$PROJECT_DIR$/vueCode/myVueCode/index.html" />
+        <option value="$PROJECT_DIR$/vueCode/myVueCode/Compile.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdVue/Compile.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdVue/Observer.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdVue/Watcher.js" />
+        <option value="$PROJECT_DIR$/vueCode/vueSkeleton/src/skeleton/Skeleton2.vue" />
+        <option value="$PROJECT_DIR$/vueCode/vueSkeleton/src/skeleton/Skeleton1.vue" />
+        <option value="$PROJECT_DIR$/vueCode/vueSkeleton/src/skeleton.main.js" />
+        <option value="$PROJECT_DIR$/vueCode/vueSkeleton/build/webpack.skeleton.config.js" />
+        <option value="$PROJECT_DIR$/vueCode/vueSkeleton/src/router/index.js" />
+        <option value="$PROJECT_DIR$/vueCode/vueSkeleton/build/webpack.dev.conf.js" />
+        <option value="$PROJECT_DIR$/vueCode/vueSkeleton/build/webpack.prod.conf.js" />
+        <option value="$PROJECT_DIR$/vueCode/vueSkeleton/src/pages/index.vue" />
+        <option value="$PROJECT_DIR$/vueCode/vueSkeleton/src/pages/my.vue" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/.editorconfig" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/src/components/button/index.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/src/components/button/button.vue" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/src/components/input/input.vue" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/src/components/input/index.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/src/components/index.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/src/App.vue" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/src/main.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/src/styles/index.less" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/build/webpack.package.conf.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/node_modules/vue/src/platforms/web/entry-runtime.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/node_modules/vue/src/core/instance/index.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdVue/index.html" />
+        <option value="$PROJECT_DIR$/vueCode/tdVue/demo.html" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/build/package.base.conf.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/build/package.prod.conf.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/build/package.dev.conf.js" />
+        <option value="$PROJECT_DIR$/vueCode/tdView/package.json" />
+        <option value="$PROJECT_DIR$/js/base.html" />
+        <option value="$PROJECT_DIR$/http/http.html" />
+        <option value="$PROJECT_DIR$/js/baseJs.html" />
+        <option value="$PROJECT_DIR$/optimize_youhua/index.html" />
+        <option value="$PROJECT_DIR$/node/express/assets/index.js" />
+        <option value="$PROJECT_DIR$/node/express/pages/index.jade" />
+        <option value="$PROJECT_DIR$/node/express/pages/home.jade" />
+        <option value="$PROJECT_DIR$/node/express/index.js" />
+        <option value="$PROJECT_DIR$/node/express/pages/index.html" />
+        <option value="$PROJECT_DIR$/node/express/package.json" />
+        <option value="$PROJECT_DIR$/node/express/router/home.js" />
       </list>
     </option>
   </component>
@@ -192,18 +217,24 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node/express/node_modules" />
     <handled-path value="$PROJECT_DIR$/vueCode/node_modules" />
+    <handled-path value="$PROJECT_DIR$/vueCode/tdView/node_modules" />
+    <handled-path value="$PROJECT_DIR$/vueCode/vueSkeleton/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node/express/package.json" />
       <path value="$PROJECT_DIR$/vueCode/package.json" />
+      <path value="$PROJECT_DIR$/vueCode/tdView/package.json" />
+      <path value="$PROJECT_DIR$/vueCode/vueSkeleton/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="366" />
-    <option name="y" value="177" />
-    <option name="width" value="1483" />
-    <option name="height" value="928" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="178" />
+    <option name="y" value="230" />
+    <option name="width" value="1729" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -223,19 +254,27 @@
             <path>
               <item name="feAll" type="b2602c69:ProjectViewProjectNode" />
               <item name="feAll" type="462c0819:PsiDirectoryNode" />
-              <item name="vueCode" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="feAll" type="b2602c69:ProjectViewProjectNode" />
               <item name="feAll" type="462c0819:PsiDirectoryNode" />
-              <item name="vueCode" type="462c0819:PsiDirectoryNode" />
-              <item name="myVueCode" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="express" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="feAll" type="b2602c69:ProjectViewProjectNode" />
               <item name="feAll" type="462c0819:PsiDirectoryNode" />
-              <item name="vueCode" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoVue" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="express" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feAll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feAll" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="express" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,6 +285,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xiao/Documents/studyspace/feAll/vueCode/tdView/build/package.dev.conf.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.prettier" value="true" />
@@ -254,6 +294,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vueCode/vueSkeleton/src/skeleton" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -281,34 +326,39 @@
       <workItem from="1528251066559" duration="1548000" />
       <workItem from="1528252869284" duration="11759000" />
       <workItem from="1528351124975" duration="7844000" />
-      <workItem from="1528702804217" duration="9865000" />
+      <workItem from="1528702804217" duration="21632000" />
+      <workItem from="1528854299643" duration="7688000" />
+      <workItem from="1530175161500" duration="3932000" />
+      <workItem from="1530236878568" duration="2999000" />
+      <workItem from="1530498767155" duration="14729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31304000" />
+    <option name="totallyTimeSpent" value="72419000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="366" y="177" width="1483" height="928" extended-state="0" />
+    <frame x="178" y="230" width="1729" height="770" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1367989" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18911007" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292517" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32851985" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,318 +367,385 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/vueCode/tdVue/Mvvm.js</url>
+          <line>28</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vueCode/myVueCode/Compile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="72" column="60" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/myVueCode/Mvvm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/myVueCode/Watcher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/myVueCode/Observer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/platforms/web/runtime/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/core/instance/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/core/instance/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/core/instance/state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1957">
-          <caret line="149" column="19" selection-start-line="149" selection-start-column="19" selection-end-line="149" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/platforms/web/entry-runtime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/demo.js" />
-    <entry file="file://$PROJECT_DIR$/vueCode/Bidirectional data binding/index.html" />
-    <entry file="file://$PROJECT_DIR$/vueCode/Bidirectional data binding/README.md" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/Bidirectional data binding/observer.js" />
-    <entry file="file://$PROJECT_DIR$/vueCode/Bidirectional data binding/index.html" />
-    <entry file="file://$PROJECT_DIR$/vueCode/Bidirectional data binding/README.md" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/Bidirectional data binding/README.md" />
-    <entry file="file://$PROJECT_DIR$/vueCode/Bidirectional data binding/compile.js" />
-    <entry file="file://$PROJECT_DIR$/vueCode/Bidirectional data binding/mvvm.js" />
-    <entry file="file://$PROJECT_DIR$/vueCode/Bidirectional data binding/index.html" />
-    <entry file="file://$PROJECT_DIR$/vueCode/Bidirectional data binding/watcher.js" />
-    <entry file="file://$PROJECT_DIR$/vueCode/Bidirectional data binding/observer.js" />
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/core/instance/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1794">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/platforms/web/entry-runtime-with-compiler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="90" column="10" lean-forward="true" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/dist/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="4575" column="2" selection-start-line="4575" selection-start-column="2" selection-end-line="4575" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/core/observer/watcher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1111">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/core/vdom/create-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/package.json">
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/src/components/input/input.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="19" />
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/core/index.js">
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/src/components/input/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/platforms/web/entry-runtime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/platforms/web/runtime/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/core/instance/lifecycle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/core/instance/state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1957">
-          <caret line="149" column="19" selection-start-line="149" selection-start-column="19" selection-end-line="149" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/element-ui/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="158" column="30" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/src/styles/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/iview/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="180" selection-start-line="180" selection-end-line="180" selection-end-column="47" />
+          <folding>
+            <element signature="e#2317#3467#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-583">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/node_modules/vue/types/vue.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/node_modules/vue/types/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/node_modules/vue/src/platforms/web/entry-runtime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/node_modules/vue/src/platforms/web/runtime/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/node_modules/vue/src/core/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/node_modules/vue/src/core/instance/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/core/instance/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="133">
           <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/core/instance/index.js">
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/node_modules/vue/src/core/instance/events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="4" selection-start-line="20" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="268">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/node_modules/vue/src/core/instance/render.js">
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/node_modules/vue/src/core/instance/render.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="80" column="13" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="80" selection-end-column="13" />
+        <state relative-caret-position="-508">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/demo.js" />
-    <entry file="file://$PROJECT_DIR$/vueCode/xiaoVue/observer1.js">
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/node_modules/vue/src/core/instance/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/xiaoVue/observer2.js">
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/node_modules/vue/src/core/instance/state.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="75" column="23" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!block;n#Observer#0" />
-          </folding>
+        <state relative-caret-position="531">
+          <caret line="335" column="57" selection-start-line="335" selection-start-column="49" selection-end-line="335" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/myVueCode/Observer.js">
+    <entry file="file://$PROJECT_DIR$/vueCode/tdVue/observer1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="-223">
+          <caret line="8" column="22" lean-forward="true" selection-end-line="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/myVueCode/Watcher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/xiaoVue/Observer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
-          <folding>
-            <element signature="n#!!block;n#Observer#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/myVueCode/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/myVueCode/Mvvm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/xiaoVue/Watcher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/xiaoVue/index.html">
+    <entry file="file://$PROJECT_DIR$/vueCode/tdVue/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/myVueCode/Compile.js">
+    <entry file="file://$PROJECT_DIR$/vueCode/tdVue/observer2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="114" column="37" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="37" />
+        <state relative-caret-position="576">
+          <caret line="92" column="14" lean-forward="true" selection-end-line="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueCode/xiaoVue/Compile.js">
+    <entry file="file://$PROJECT_DIR$/vueCode/tdVue/Observer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="180" selection-start-line="180" selection-end-line="180" />
+        <state relative-caret-position="260">
+          <caret line="60" selection-start-line="60" selection-end-line="83" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdVue/Watcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="26" column="16" lean-forward="true" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdVue/Compile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="21" lean-forward="true" selection-end-line="186" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdVue/Mvvm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="11" lean-forward="true" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdVue/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/vueSkeleton/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/vueSkeleton/src/skeleton/Skeleton1.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/vueSkeleton/build/webpack.skeleton.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="10" lean-forward="true" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/vueSkeleton/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/vueSkeleton/src/skeleton.main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/vueSkeleton/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/src/components/button/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/src/components/button/button.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="20" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/src/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/productDetails.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/build/package.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/build/package.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/baseJs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="437" column="33" selection-start-line="437" selection-start-column="33" selection-end-line="437" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1530519054000" expanded="true" signature="5423:5617" ph="..." />
+            <marker date="1530519054000" expanded="true" signature="8994:9070" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/optimize_youhua/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/http.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueCode/tdView/build/package.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/express/assets/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/express/pages/home.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/express/pages/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/express/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/express/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/express/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/express/router/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
